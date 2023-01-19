@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>Student Management System</title>
+    <link rel="icon" type="image/x-icon" href="~/person-icon.svg">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -25,7 +26,7 @@
                     <li>@Html.ActionLink("Registration", "Index", "Registration")</li>
                     <li>@Html.ActionLink("User", "Index", "User")</li>
                 </ul>
-                <ul class="nav navbar-right" style="color:white">
+                <ul class="nav navbar-right navbar-nav" style="color:white">
                     @if (Session["UserID"] != null)
                     {
                         <h4 style="color:white">Hi @Session["UserName"]</h4>
@@ -43,7 +44,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Student Management System By Anum Zeb & Saba Yashfeen</p>
         </footer>
     </div>
 

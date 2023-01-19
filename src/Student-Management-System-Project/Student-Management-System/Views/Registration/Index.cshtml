@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Students</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -21,10 +21,10 @@
             @Html.DisplayNameFor(model => model.Contact)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Batch.Batch1)
+            @Html.Label("Batch")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Course.Course1)
+            @Html.Label("Course")
         </th>
         <th></th>
     </tr>

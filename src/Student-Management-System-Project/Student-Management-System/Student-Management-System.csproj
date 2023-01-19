@@ -191,6 +191,7 @@
     <Content Include="Models\StudentModel.edmx.diagram">
       <DependentUpon>StudentModel.edmx</DependentUpon>
     </Content>
+    <Content Include="person-icon.svg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
