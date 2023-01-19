@@ -1,6 +1,6 @@
 # Student-Management-System
 
-## User
+### User
   Users List
   Add User
   View User Details
@@ -9,21 +9,21 @@
   Log In
   Log Out
 
-## Student
+### Student
   Students List
   Add Student
   View Student Details
   Update Student Details
   Delete Student
 
-## Course
+### Course
   Courses List
   Add Course
   View Course Details
   Update Course Details
   Delete Course
 
-## Batch
+### Batch
   Batchs List
   Add Batch
   View Batch Details
