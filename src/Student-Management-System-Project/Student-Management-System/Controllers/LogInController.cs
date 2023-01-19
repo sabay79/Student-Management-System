@@ -30,8 +30,8 @@ namespace Student_Management_System.Controllers
                     if (user != null)
                     {
                         Session["UserID"] = user.ID.ToString();
-                        Session["UserEmail"] = user.Email.ToString();
-                        return RedirectToAction("Index", "Home");
+                        Session["UserName"] = user.Name.ToString();
+                        return RedirectToAction("Index", "Registration");
                     }
                     else
                     {
@@ -40,6 +40,11 @@ namespace Student_Management_System.Controllers
                 }
             }
             return View(model);
+        }
+        public ActionResult LogOut() 
+        {
+            Session.Clear();
+            return RedirectToAction("Index", "LogIn");
         }
     }
 }
