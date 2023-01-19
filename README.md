@@ -1,6 +1,8 @@
 # Student-Management-System
 
-### User
+## Features List
+
+### 1- User
   Users List
   Add User
   View User Details
@@ -9,21 +11,21 @@
   Log In
   Log Out
 
-### Student
+### 2- Student
   Students List
   Add Student
   View Student Details
   Update Student Details
   Delete Student
 
-### Course
+### 3- Course
   Courses List
   Add Course
   View Course Details
   Update Course Details
   Delete Course
 
-### Batch
+### 4- Batch
   Batchs List
   Add Batch
   View Batch Details
