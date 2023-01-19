@@ -4,11 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="3a5a740034e8411cae44135403f33bcd" Name="Diagram1">
-        <EntityTypeShape EntityType="Student_DBModel.Batch" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Student_DBModel.Course" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+      <Diagram DiagramId="3a5a740034e8411cae44135403f33bcd" Name="Diagram1" ZoomLevel="132">
+        <EntityTypeShape EntityType="Student_DBModel.Batch" Width="1.5" PointX="0.875" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Student_DBModel.Course" Width="1.5" PointX="5.125" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="Student_DBModel.Registration" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Student_DBModel.User" Width="1.5" PointX="5.375" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Student_DBModel.User" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
         <AssociationConnector Association="Student_DBModel.FK_Registration_Batch" ManuallyRouted="false" />
         <AssociationConnector Association="Student_DBModel.FK_Registration_Course" ManuallyRouted="false" />
       </Diagram>
